@@ -2,5 +2,8 @@
   "private": true,
   "name": "react",
   "workspaces": ["packages/*"],
-  "scripts": {}
+  "scripts": {
+    "dev:client": "yarn workspace client start",
+    "test:client": "yarn workspace client test"
+  }
 }
